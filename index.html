@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>JS Weather App</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="css/weather-icons.min.css" />
+<link rel="stylesheet" href="css/weather-icons-wind.min.css" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div id="main_div">
+
+<div id="search_div">
+<input type="text" id="search_box" placeholder="Search By City">
+<button id="search_btn">
+<span class="material-icons">search</span>
+</button>
+</div>
+
+<div id="in_div" style="display:none;">
+<h2 id="name"></h2>
+<h3 id="temp"></h3>
+<div id="des_div">
+<p>
+<i class="" id="icon"></i><span id="description">Mostly Cloudy</span>
+</p>
+</div>
+<div id="wh">
+<h5 class="h"><span class="h"></span>:<span id="humu" class="h"></span></h5>
+<h5 class="w"><span class="w"></span>:<span id="ws" class="w"></span></h5>
+</div>
+</div>
+
+<div id="sea" style="display:none;">
+<h3 id="no">Please Enter City Name</h3>
+<h1 id="nodot">...</h1>
+</div>
+
+<div id="err" style="display:none;">
+<h3 id="errtext">No City Found</h3>
+</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family: 'Ubuntu', sans-serif;
+}
+body{
+ background:#2e3131;
+}
+#main_div{
+ color:#fff;
+ width:95%;
+ position:absolute;
+ top:50%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ padding:15px;
+ background:rgba(0,0,0,0.2);
+ border-radius:5px;
+}
+
+#search_box{
+ width:85%;
+ padding:12px 15px;
+ border-radius:55px;
+ border:none;
+ background:rgba(0,0,0,0.2);
+ color:#fff;
+}
+#search_box:focus{
+ outline:none;
+}
+#search_btn{
+ background:rgba(0,0,0,0.2);
+ border:none;
+ padding:5px;
+ height:42px;
+ width:42px;
+ border-radius:50%;
+ text-align:center;
+ line-height:42px;
+ vertical-align:middle;
+}
+#search_btn:focus{
+ outline:none;
+}
+span{
+ color:#fff;
+ margin:4.2px;
+}
+#icon{
+ font-size:28px;
+}
+#name{
+ margin:20px 0px 0px 10px;
+ color:#00A6A6;
+}
+#temp{
+ margin:15px 0px 0px 17px;
+ color:#FC9E4F;
+}
+#des_div{
+ margin:15px 0px 0px 17px;
+}
+#description{
+ margin-left:14px;
+ text-transform:capitalize;
+ font-weight:bold;
+ color:dodgerblue;
+}
+#icon{
+ display:inline;
+ color:#CB48B7;
+}
+#wh{
+ margin:20px 0px 0px 17px;
+}
+.h{
+ color:#7CC6FE;
+}
+.w{
+ color:#8377D1;
+}
+#no{
+ text-align:center;
+ color:#28AFB0;
+}
+#nodot{
+ text-align:center;
+ color:#28AFB0;
+ letter-spacing:8px;
+}
+#sea,#err{
+ margin:30px 0px 15px 0px;
+}
+#errtext{
+ text-align:center;
+ color:#d2527f;
+}
